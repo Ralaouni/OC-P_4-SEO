@@ -6,9 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.h2-contact{
-    color: #ffa57b!important;
-}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -98,7 +96,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -439,9 +436,13 @@ nav .caret {
     margin-left: 35%;
     margin-right: 35%;
 }
+.partenaire a{
+    color: white!important;
+}
 .partenaire h2{
     text-align: center;
     font-size: 17px;
+    color: white!important;
 }
 .dropdown-menu .dropdown-menu {
     top: -8px;
@@ -698,7 +699,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -819,13 +820,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #7c5542;
 }
 
-
-
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #684229;
     color: #FFFFFF!important;
 }
 
@@ -835,6 +834,9 @@ h4 {
 }
 .tc-white{
     color: #F3976C!important;
+}
+.h2-contact{
+    color: #fbfbfb!important;
 }
 .ecriturep2{
     color: #000000!important;
@@ -1091,3 +1093,4 @@ h4 {
         text-align: center;
     }
 }
+
