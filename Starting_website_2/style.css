@@ -557,7 +557,9 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
-
+input:focus:invalid{
+    background-color: rgb(240, 113, 113);
+}
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -839,7 +841,7 @@ h4 {
     color: #fbfbfb!important;
 }
 .ecriturep2{
-    color: #000000!important;
+    color: #ffffff!important;
 }
 .ltc-white {
     color: #FFFFFF!important;
